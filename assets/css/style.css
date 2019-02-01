@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.sideBar{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    background: black;
+    left: -250px;
+    transition-duration: 0.6s;
+}
+.show{
+    left: 0px;
+    transition-duration: 0.6s;
+}
+.sideBar ul{
+    padding: 0px;
+    padding-top:40px;
+}
+
+.sideBar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+span.close{
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    right: 20px;
+    top:20px;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    background: black;
+    height: 60px;
+}
+ul.dropdown{
+    padding: 0px;
+    margin: 0px;
+}
+ul.dropdown li{
+    float: left;
+    list-style: none;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    line-height: 60px;
+    position: relative;
+}
+ul.dropdown span{
+    color: white;
+}
+ul.dropdown li:hover{
+    background: green;
+}
+ul.dropdown li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;   
+}
+.clear{
+    clear: both;
+}
+.subList{
+    position: absolute;
+    background: red;
+    padding: 0px;
+    left:0px;
+    display: none;
+}
+ul.subList li{
+    float: none;
+}
+
